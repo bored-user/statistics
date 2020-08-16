@@ -5,14 +5,13 @@ namespace Statistics
 {
     public class Order
     {
-        public static string Index(long[] nums)
+        public static long[] Index(long[] nums)
         {
             Array.Sort(nums);
-
-            return Order.ToString(nums);
+            return nums;
         }
 
-        private static string ToString(long[] nums)
+        public static string ToString(long[] nums)
         {
             string res = "";
             foreach (int num in nums)

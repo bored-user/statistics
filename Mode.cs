@@ -6,27 +6,24 @@ namespace Statistics
     public class Mode
     {
 
-        public static long Index(long[] nums)
+        public static dynamic Index(long[] nums)
         {
-            List<long> mode = new List<long>();
-            foreach (int num in nums)
+            nums = Order.Index(nums);
+            long? last = 0,
+                mode = null;
+
+            foreach(long num in nums)
             {
-                Mode.FillList(mode, num);
-                mode[num]++;
+                if (num == last)
+                    mode = num;
+
+                last = num;
             }
 
-            mode.Sort();
-            return mode.Last();
+            if (mode == null)
+                return "There's no mode in the given set";
+            else
+                return mode;
         }
-
-        private static void FillList(List<long> mode, int index)
-        {
-            for (int i = 0; i <= index; i++)
-            {
-                if (mode.ElementAtOrDefault(i) == 0)
-                    mode.Insert(i, 0);
-            }
-        }
-
     }
 }

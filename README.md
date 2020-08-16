@@ -6,8 +6,8 @@ I've included a `releases` folder, where the program is already compiled. One ca
 ### Usage
 
 Right after running the program, a terminal window will pop-up, asking for input. One can, then, select one of the given options and input the numbers (comma separated).<br>
-If an unexistent option is given, an `IndexOutOfRangeException` exception will be thrown (but don't worry: it knows how to handle it).<br>
-After selecting an option, the user will be prompted to insert comma separated values to perform the calculation uppon (if the format is incorrect, a `FormatException` will be thrown. Again, the program knows how to handle it).<br>
+If an unexistent option is given, an [`IndexOutOfRangeException`](https://docs.microsoft.com/en-us/dotnet/api/system.indexoutofrangeexception?view=netcore-3.1) will be thrown (but don't worry: it knows how to handle it).<br>
+After selecting an option, the user will be prompted to insert comma separated values to perform the calculation uppon (if the format is incorrect, a [`FormatException`](https://docs.microsoft.com/en-us/dotnet/api/system.formatexception?view=netcore-3.1) will be thrown. Again, the program knows how to handle it).<br>
 When the user finishes those two prior steps, the program will then compute the result, display it and run the exit routine.
 
 

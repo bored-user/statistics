@@ -15,4 +15,4 @@ When the user finishes those two prior steps, the program will then compute the 
 The project can be built using a tool like [`csc`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe) or [`mcs`](https://www.mono-project.com/docs/about-mono/languages/csharp/) (C# compilers). However, I've already added a [`releases`](https://github.com/bored-user/statistics/tree/master/releases) folder which contains all releases in `statistics_v[version_here].exe` naming format.
 
 
-[Issues](//github.com/bored-user/statistics/issues) and [pull requests](//github.com/bored-user/statistics/pull) are welcome! Hope you find it useful (I surely will, because I do those calculations with certain frequency). Happy coding!
+[Issues](//github.com/bored-user/statistics/issues) and [pull requests](//github.com/bored-user/statistics/pull) are welcome! Hope you find it useful (I surely will, because I do those calculations with certain frequency - no pun intended). Happy coding!

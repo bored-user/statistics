@@ -6,16 +6,7 @@ namespace Statistics
     {
         public static double Index(long[] nums)
         {
-            double mean = Mean.Index(nums);
-            double res = 0;
-
-            foreach (long num in nums)
-            {
-                Convert.ToDouble(mean - num);
-                res += Math.Pow(mean - num, 2);
-            }
-
-            return Math.Sqrt(res / nums.Length);
+            return Math.Sqrt(Variance.Index(nums));
         }
     }
 }

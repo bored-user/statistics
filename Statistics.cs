@@ -34,7 +34,7 @@ public class Statistics
             last = val;
         }
 
-        return res.Substring(0, res.Length - 3);
+        return res.Substring(0, res.Length - 2);
     }
 
     public static double Mean(long[] nums)

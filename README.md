@@ -1,4 +1,4 @@
-# statistics
+# Statistics
 
 CLI tool to perform common mathematical statistics calculations (mean, median, mode, standard deviation, order numbers, etc). Implemented in C#.<br>
 I've included a `releases` folder, where the program is already compiled. One can run it natively on Windows or using [`mono`](https://www.mono-project.com/) tool on Linux/ Mac.
